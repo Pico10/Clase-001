@@ -1,0 +1,67 @@
+body{
+    margin: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+main{
+    margin: ;
+}
+
+
+.ultimanot{
+    border-bottom: 1px solid #d5d5d5;
+    align-items: center;
+    border-top: 1px solid #d5d5d5;
+    color: #555;
+    gap: 32px;
+    height: 32px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.ultimanot a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 64px;
+
+}
+
+h1{
+    color: rgb(255, 102, 0);
+    margin-left: 30rem;
+}
+
+
+h4{
+    color: white(255, 102, 0); 
+}
+
+footer{
+    background-color:grey ; 
+    color: white; 
+  
+  }
+
+
+  .sectionnav-container {
+  
+    border: 1px solid #d5d5d5;
+    border-right: none;
+    border-left: none;;
+
+    padding: 0 16px;
+    
+}
+
+
+.sectionnav-container a{
+ 
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+    letter-spacing: 0;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-left: 40px;
+}
