@@ -1,67 +1,117 @@
-body{
-    margin: 30px;
+/* Estilos base para dispositivos móviles */
+body {
+    margin: 10px; 
     font-family: Roboto, sans-serif;
 }
 
-main{
-    margin: ;
+main {
+    margin: 0;
 }
 
-
-.ultimanot{
+.ultimanot {
     border-bottom: 1px solid #d5d5d5;
     align-items: center;
     border-top: 1px solid #d5d5d5;
     color: #555;
-    gap: 32px;
+    gap: 16px; 
     height: 32px;
     overflow: hidden;
-    padding: 0;
+    padding: 0 16px; 
 }
 
-.ultimanot a{
+.ultimanot a {
     text-decoration: none;
     color: inherit;
-    margin-left: 64px;
-
+    margin-left: 16px; 
 }
 
-h1{
+h1 {
     color: rgb(255, 102, 0);
-    margin-left: 30rem;
+    margin-left: 16px; 
+    font-size: 24px; 
+
+h4 {
+    color: #fff; 
 }
 
-
-h4{
-    color: white(255, 102, 0); 
+footer {
+    background-color: grey;
+    color: white;
 }
 
-footer{
-    background-color:grey ; 
-    color: white; 
-  
-  }
-
-
-  .sectionnav-container {
-  
+.sectionnav-container {
     border: 1px solid #d5d5d5;
     border-right: none;
-    border-left: none;;
-
+    border-left: none;
     padding: 0 16px;
-    
 }
 
-
-.sectionnav-container a{
- 
+.sectionnav-container a {
     color: #1f1f1f;
-    font-size: 16px;
+    font-size: 14px; 
     font-weight: 500;
     height: 100%;
     letter-spacing: 0;
     white-space: nowrap;
-    text-decoration: none;
-    margin-left: 40px;
+    margin-left: 16px;
 }
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* Media queries para tablet */
+@media only screen and (min-width: 600px) {
+    body {
+        margin: 20px; 
+    }
+
+    .ultimanot {
+        gap: 24px; 
+    }
+
+    h1 {
+        margin-left: 30px; 
+        font-size: 28px; 
+    }
+
+    .sectionnav-container a {
+        font-size: 16px; 
+        margin-left: 24px; 
+    }
+
+    img {
+        max-width: 80%; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
+/* Media queries para pantallas más grandes (desktop) */
+@media only screen and (min-width: 1024px) {
+    body {
+        margin: 30px; 
+    }
+
+    .ultimanot {
+        gap: 32px; 
+    }
+
+    h1 {
+        margin-left: 30rem; 
+        font-size: 32px;
+    }
+
+    .sectionnav-container a {
+        font-size: 18px; 
+        margin-left: 40px; 
+    }
+
+    img {
+        max-width: 60%; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
