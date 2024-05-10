@@ -1,6 +1,6 @@
 /* Estilos base para dispositivos móviles */
 body {
-    margin: 10px; 
+    margin: 10px; /* Reducimos el margen en dispositivos móviles */
     font-family: Roboto, sans-serif;
 }
 
@@ -13,25 +13,26 @@ main {
     align-items: center;
     border-top: 1px solid #d5d5d5;
     color: #555;
-    gap: 16px; 
+    gap: 16px; /* Reducimos el espacio entre elementos en dispositivos móviles */
     height: 32px;
     overflow: hidden;
-    padding: 0 16px; 
+    padding: 0 16px; /* Añadimos un poco de padding en los lados para dispositivos móviles */
 }
 
 .ultimanot a {
     text-decoration: none;
     color: inherit;
-    margin-left: 16px; 
+    margin-left: 16px; /* Reducimos el margen izquierdo en dispositivos móviles */
 }
 
 h1 {
     color: rgb(255, 102, 0);
-    margin-left: 16px; 
-    font-size: 24px; 
+    margin-left: 16px; /* Reducimos el margen izquierdo en dispositivos móviles */
+    font-size: 24px; /* Reducimos el tamaño de fuente para dispositivos móviles */
+}
 
 h4 {
-    color: #fff; 
+    color: #fff; /* Corregimos un error en la definición del color blanco */
 }
 
 footer {
@@ -48,42 +49,43 @@ footer {
 
 .sectionnav-container a {
     color: #1f1f1f;
-    font-size: 14px; 
+    font-size: 14px; /* Reducimos el tamaño de fuente en dispositivos móviles */
     font-weight: 500;
     height: 100%;
     letter-spacing: 0;
     white-space: nowrap;
-    margin-left: 16px;
+    text-decoration: none;
+    margin-left: 16px; /* Reducimos el margen izquierdo en dispositivos móviles */
 }
 
 img {
-    max-width: 100%; 
-    height: auto; 
+    max-width: 100%; /* Asegura que la imagen no se extienda más allá de su contenedor */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
 }
 
 /* Media queries para tablet */
 @media only screen and (min-width: 600px) {
     body {
-        margin: 20px; 
+        margin: 20px; /* Ajustamos el margen para tablet */
     }
 
     .ultimanot {
-        gap: 24px; 
+        gap: 24px; /* Ajustamos el espacio entre elementos para tablet */
     }
 
     h1 {
-        margin-left: 30px; 
-        font-size: 28px; 
+        margin-left: 30px; /* Ajustamos el margen izquierdo para tablet */
+        font-size: 28px; /* Ajustamos el tamaño de fuente para tablet */
     }
 
     .sectionnav-container a {
-        font-size: 16px; 
-        margin-left: 24px; 
+        font-size: 16px; /* Ajustamos el tamaño de fuente para tablet */
+        margin-left: 24px; /* Ajustamos el margen izquierdo para tablet */
     }
 
     img {
-        max-width: 80%; 
-        margin-left: auto; 
+        max-width: 80%; /* Reduce el tamaño de la imagen en tablets */
+        margin-left: auto; /* Centra la imagen en tablets */
         margin-right: auto;
     }
 }
@@ -91,27 +93,28 @@ img {
 /* Media queries para pantallas más grandes (desktop) */
 @media only screen and (min-width: 1024px) {
     body {
-        margin: 30px; 
+        margin: 30px; /* Ajustamos el margen para pantallas más grandes */
     }
 
     .ultimanot {
-        gap: 32px; 
+        gap: 32px; /* Ajustamos el espacio entre elementos para pantallas más grandes */
     }
 
     h1 {
-        margin-left: 30rem; 
-        font-size: 32px;
+        margin-left: 30rem; /* Ajustamos el margen izquierdo para pantallas más grandes */
+        font-size: 32px; /* Ajustamos el tamaño de fuente para pantallas más grandes */
     }
 
     .sectionnav-container a {
-        font-size: 18px; 
-        margin-left: 40px; 
+        font-size: 18px; /* Ajustamos el tamaño de fuente para pantallas más grandes */
+        margin-left: 40px; /* Ajustamos el margen izquierdo para pantallas más grandes */
     }
 
     img {
-        max-width: 60%; 
-        margin-left: auto; 
+        max-width: 60%; /* Reduce aún más el tamaño de la imagen en pantallas más grandes */
+        margin-left: auto; /* Centra la imagen en pantallas más grandes */
         margin-right: auto;
     }
 }
+
 
